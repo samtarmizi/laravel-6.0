@@ -2,4 +2,9 @@
 
 ## Run 
         composer  create-project laravel/laravel lara-6 --prefer-dist
-        
+
+## Create Authentication Scaffolding - Vue
+        composer require laravel/ui --dev
+        php artisan ui vue --auth
+
+    
