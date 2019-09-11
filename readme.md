@@ -7,4 +7,11 @@
         composer require laravel/ui --dev
         php artisan ui vue --auth
 
-    
+## Install, build & compiled
+        npm install
+        npm run dev
+
+        or Error: Unhandled rejection Error: EACCES: permission denied
+
+        sudo npm install
+        sudo npm run dev
